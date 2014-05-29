@@ -9,10 +9,15 @@
 
 }
 
+#top-wrapper {
+  position: relative;
+
+}
+
 #left-top {
   position: relative;
   float: left;
-  max-width: 50%;
+  max-width: 30%;
   margin-left: 3%;
 }
 
@@ -21,10 +26,8 @@
   padding-left: 1%;
   text-align: left;
   float: right;
-  max-width: 50%;
+  max-width: 60%;
   margin-right: 4%;
-  margin-top: -2%;
-
 }
 
 /*section dividers*/
@@ -44,13 +47,13 @@
 /*navigation bar*/
 
 .nav li {
-    display:inline;
+  display:inline;
 }
 
 .nav a {
-    display:inline-block;
-    padding:10px;
-    color: white;
+  display:inline-block;
+  padding:10px;
+  color: white;
 }
 
 .nav {
@@ -72,21 +75,21 @@
 /*stack section*/
 
 .stack-box {
-    color: white;
-    -moz-box-shadow:    1px 3px 5px 1px black;
-    -webkit-box-shadow: 1px 3px 5px 1px black;
-    box-shadow:         1px 3px 5px 1px black;
-    background-color: #131B2A;
-    opacity: 0.7;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 5px;
-    height: 200px;
-    min-width: 200px;
-    padding: 3px;
-    text-align: center;
-    vertical-align: top;
-    width: 17%;
+  color: white;
+  -moz-box-shadow:    1px 3px 5px 1px black;
+  -webkit-box-shadow: 1px 3px 5px 1px black;
+  box-shadow:         1px 3px 5px 1px black;
+  background-color: #131B2A;
+  opacity: 0.7;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  height: 200px;
+  min-width: 200px;
+  padding: 3px;
+  text-align: center;
+  vertical-align: top;
+  width: 17%;
 }
 
 #portfolio-content {max-width: 60%; margin: auto;}
@@ -121,7 +124,6 @@ img#me {
   vertical-align: top;
 }
 
-
 ul#contacts, ul.stack-list {
   list-style:none;
   padding: 0;
@@ -130,26 +132,26 @@ ul#contacts, ul.stack-list {
 /*jcarousel*/
 
 .jcarousel {
-    position: relative;
-    overflow: hidden;
-    width: 730px;
-    margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
 }
 
 .jcarousel ul {
-    width: 300%;
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  width: 300%;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .jcarousel li {
-    overflow: hidden;
-    float: left;
-    text-align: center;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  text-align: center;
 }
-
 
 body {
   background-color: #708090;
@@ -162,7 +164,7 @@ body {
 
 img {border-radius: 1%; padding: 5px;}
 
-h1 {font-size: 2em;}
+h1 {font-size: 2em; text-align: center;}
 
 a {text-decoration: none; color: #2F4F4F;}
 
@@ -177,8 +179,7 @@ a.app-link:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover {text-decoratio
 
 a:hover{color: #000000;}
 
-hr {
-    border: 0;
+hr {border: 0;
     height: 3px;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
