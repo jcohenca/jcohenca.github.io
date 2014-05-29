@@ -132,13 +132,13 @@ ul#contacts, ul.stack-list {
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 500px;
+    width: 730px;
     margin: auto;
 }
 
 .jcarousel ul {
     overflow: hidden;
-    width: 20000px;
+    width: 300%;
     position: relative;
     list-style: none;
     margin: 0;
@@ -148,7 +148,9 @@ ul#contacts, ul.stack-list {
 .jcarousel li {
     overflow: hidden;
     float: left;
+    text-align: center;
 }
+
 
 body {
   background-color: #708090;
@@ -171,7 +173,8 @@ p#portfolio, p#resume, p#stack {
     margin: auto;
 }
 
-a.jcarousel-prev, a.jcarousel-next {color: #000000;}
+a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000; font-weight: bold;}
+a.app-link:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover {text-decoration: underline;}
 
 a:hover{color: #000000;}
 
