@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   $(function() {
     $('.jcarousel').jcarousel({
-
+        wrap: 'circular'
       });
 
         $('.jcarousel-prev').jcarouselControl({
@@ -28,6 +28,13 @@ $(document).ready(function() {
         });
   });
 
+  $('.jcarousel')
+    .on('jcarousel:create jcarousel:reload', function() {
+        var element = $(this),
+            width = element.innerWidth();
+        element.jcarousel('items').css('width', width + 'px');
+    })
+    
 });
 
 
