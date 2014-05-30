@@ -157,7 +157,7 @@ body {
 
 img {border-radius: 1%; padding: 5px;}
 
-h1 {font-size: 2em; text-align: center;}
+h1 {font-size: 2.3em; text-align: center;}
 
 a {text-decoration: none; color: #2F4F4F;}
 
@@ -167,8 +167,9 @@ p#portfolio, p#resume, p#stack {
     margin: auto;
 }
 
+
 a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000; font-weight: bold;}
-a.app-link:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover {text-decoration: underline;}
+a.app-link:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover {color: white;}
 
 a:hover{color: #000000;}
 
