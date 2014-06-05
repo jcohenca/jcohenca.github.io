@@ -56,7 +56,7 @@
   color: white;
 }
 
-.nav a:hover{color: black;}
+.nav a:hover{color: black; font-weight: normal}
 
 .nav {
   top: 0;
@@ -179,10 +179,12 @@ p#portfolio, p#resume, p#stack {
 }
 
 
-a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000; font-weight: bold;}
+a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000;}
 a.jcarousel-prev:hover, a.jcarousel-next:hover {color: white;}
 a {color: #000000;}
 a:hover{color: white;}
+
+.app-link { font-weight: bold}
 
 hr {border: 0;
     height: 3px;
