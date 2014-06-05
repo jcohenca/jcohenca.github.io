@@ -22,7 +22,7 @@
 
 #top-right {
   text-align: center;
-  margin: 5%;
+  margin: 3%;
 }
 
 #about {
@@ -32,7 +32,7 @@
 /*section dividers*/
 
 .section {
-  font-weight: bold;
+
   box-shadow: 0px 8px 10px -6px black;
   width: 100%;
   clear:both;
@@ -56,13 +56,15 @@
   color: white;
 }
 
+.nav a:hover{color: black;}
+
 .nav {
   top: 0;
   left: 0;
   width: 100%;
   height: 7%;
   font-size: 1.5em;
-  font-family: 'Cambria', sans-serif;
+  font-family: 'Lato', sans-serif;
   position: fixed;
   list-style:none;
   margin:0;
@@ -164,16 +166,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/*#font {
-  font-family: 'Cambria', sans-serif;
-  font-weight: 400;*/
-
-}
 
 img {border-radius: 1%; padding: 5px;}
 
 
-a {text-decoration: none; color: #2F4F4F;}
+a {text-decoration: none; color: #DCDCDC;}
 
 p#portfolio, p#resume, p#stack {
     text-align: center;
@@ -183,9 +180,9 @@ p#portfolio, p#resume, p#stack {
 
 
 a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000; font-weight: bold;}
-a.app-link:hover, a.jcarousel-prev:hover, a.jcarousel-next:hover {color: white;}
-
-a:hover{color: #000000;}
+a.jcarousel-prev:hover, a.jcarousel-next:hover {color: white;}
+a {color: #000000;}
+a:hover{color: white;}
 
 hr {border: 0;
     height: 3px;
@@ -195,8 +192,8 @@ hr {border: 0;
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
-h3 {
-  font-size: 1.1em;
-}
+h1, h2, h3 {font-weight: normal}
+
+h3 { font-size: 1.1em;}
 
 
