@@ -35,6 +35,7 @@
 
   box-shadow: 0px 8px 10px -6px black;
   width: 100%;
+  color: white;
   clear:both;
   margin-top: 2%;
   padding-top: 3%;  
@@ -112,7 +113,7 @@
 }
 
 img#me {
-  border-radius: 4%;
+  border-radius: 5%;
   max-width: 80%;
   -moz-box-shadow:    2px 3px 10px 1px black;
   -webkit-box-shadow: 2px 3px 10px 1px black;
@@ -178,7 +179,6 @@ p#portfolio, p#resume, p#stack {
     margin: auto;
 }
 
-
 a.jcarousel-prev, a.jcarousel-next, a.app-link {color: #000000;}
 a.jcarousel-prev:hover, a.jcarousel-next:hover {color: white;}
 a {color: #000000;}
@@ -194,7 +194,7 @@ hr {border: 0;
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
-h1, h2, h3 {font-weight: normal}
+ h2, h3 {font-weight: normal}
 
 h3 { font-size: 1.1em;}
 
