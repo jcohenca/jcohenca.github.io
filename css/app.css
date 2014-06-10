@@ -17,12 +17,11 @@
   padding-left: 1%;
   text-align: center;
   float: left;
-
 }
 
 #top-right {
   text-align: center;
-  margin: 3%;
+  margin: 5%;
 }
 
 #about {
@@ -64,7 +63,7 @@
   left: 0;
   width: 100%;
   height: 7%;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: 'Lato', sans-serif;
   position: fixed;
   list-style:none;
