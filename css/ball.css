@@ -1,0 +1,23 @@
+.o, .x {
+  font-size: 30px;
+  color: red;
+}
+
+
+#x {
+
+
+  padding: 0;
+  width: 50%;
+}
+
+#o {
+    padding: 0;
+  width: 50%;
+  text-align: left; 
+
+}
+
+#court {
+  float: left;
+}
