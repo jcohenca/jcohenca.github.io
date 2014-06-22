@@ -4,29 +4,17 @@
 }
 
 
-#x {
-  text-align: left; 
-  float: right;
-  margin-right: 60%;
-  margin-top: 5%;
-
-}
-
-#o {
-    float: right;
-    text-align: left; 
-    margin-top: 5%;
-}
-
 #court {
-  float: left;
+  float: right;
+  position: absolute;
+  padding: 50px;
 
 }
 
-#ball {
-   float: right;
-    text-align: left; 
-    margin-right: 60%;
-    margin-top: 1%
+#draggables {
+  position: absolute;
+  float: right;
+
+  
 
 }
