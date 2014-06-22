@@ -1,6 +1,22 @@
 $(document).ready(function() {
 
-  $("#ball").draggable();
+
+  for(var i=1; i<=24; i++){
+    var select = document.getElementById("shotclock");
+    var option = document.createElement("OPTION");
+  select.options.add(option);
+  option.text = i;
+  option.value = i;
+}
+
+  $('#ball').draggable({
+    start: function() {
+        coordinates('#ball');
+    },
+    stop: function() {
+        coordinates('#ball');
+    }
+  });
 
 
   $('#x1').draggable({
@@ -98,6 +114,14 @@ $('#o1').draggable({
 
 
 })
+
+var coordinates = function(element) {
+    element = $(element);
+    var top = element.position().top;
+    var left = element.position().left;
+    $('#ball-pos').text('X: ' + left + ' ' + 'Y: ' + top);
+}
+
 
 
 var coordinates1 = function(element) {
