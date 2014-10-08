@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-
-  function contactsHover() {}
+    $('.stack-box').hide();
+    $('.section').hide();
+    $('#portfolio-section').hide();
 
     $('.wiggle')
       .mouseenter(function() {
@@ -12,29 +13,46 @@ $(document).ready(function() {
       .mouseleave(function() {
         $(this).ClassyWiggle('stop');
   });
+ 
 
 
-  $(function() {
-    $('.jcarousel').jcarousel({
-        wrap: 'circular'
-      });
-
-        $('.jcarousel-prev').jcarouselControl({
-            target: '-=1'
-        });
-
-        $('.jcarousel-next').jcarouselControl({
-            target: '+=1'
-        });
-  });
-
-  $('.jcarousel')
-    .on('jcarousel:create jcarousel:reload', function() {
-        var element = $(this),
-            width = element.innerWidth();
-        element.jcarousel('items').css('width', width + 'px');
-    })
-    
 });
 
 
+
+
+function about() {
+  $('#top-right').show();
+  $('#top-left').show();
+  $('.stack-box').hide();
+  $('.section').hide();
+  $('#portfolio-section').hide();
+}
+
+function skills() {
+  $('#top-right').hide();
+  $('#top-left').hide();
+  $('.stack-box').show();
+  $('#portfolio-section').hide();
+}
+
+function portfolio() {
+  $('#top-right').hide();
+  $('#top-left').hide();
+  $('.stack-box').hide();
+  $('#portfolio-section').show();
+
+}
+
+function slides() {
+ 
+   $('.slider').responsiveSlides({
+      nav: true,
+      prevText: " ",
+      nextText: " ",
+      auto: false
+    });
+};
+
+// });
+// }
