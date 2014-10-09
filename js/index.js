@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('.stack-box').hide();
     $('.section').hide();
     $('#portfolio-section').hide();
+    $('#resume').hide();
 
     $('.wiggle')
       .mouseenter(function() {
@@ -13,7 +14,6 @@ $(document).ready(function() {
       .mouseleave(function() {
         $(this).ClassyWiggle('stop');
   });
- 
 });
 
 
@@ -25,8 +25,8 @@ function about() {
   $('#resume').hide();
   $('#portfolio-section').hide();
 
-  $('#top-right').show();
-  $('#top-left').show();
+  $('#top-right').fadeIn(450);
+  $('#top-left').fadeIn(450);
 }
 
 function skills() {
@@ -35,7 +35,7 @@ function skills() {
   $('#resume').hide();
   $('#portfolio-section').hide();
 
-  $('.stack-box').show();
+  $('.stack-box').fadeIn(450);
 }
 
 function portfolio() {
@@ -44,18 +44,16 @@ function portfolio() {
   $('.stack-box').hide();
   $('#resume').hide();
 
-  $('#portfolio-section').show();
+  $('#portfolio-section').fadeIn(450);
 }
 
 function resume() {
   $('#top-right').hide();
   $('#top-left').hide();
   $('.stack-box').hide();
-  $('.section').hide();
   $('#portfolio-section').hide();
 
-  $('#resume').show();
-  $('#res').show();
+  $('#resume').fadeIn(450);
 }
 
 function slides() {

@@ -19,13 +19,16 @@ body {
 }
 
 #title {
-  margin-left: 8%;
+  margin-left: 15%;
+  top: 0;
+  padding:0;
 }
 
 #main {
   margin: auto;
   width: 75%;
   height: 100%;
+  padding: 0;
 }
 
 /*about me */
@@ -41,15 +44,16 @@ body {
 img#me {
   border-radius: 2%;
   border: solid black 8px ;
+  width: 75%;
+  margin-left: 27%;
 }
 
 #top-right {
   float: right;
-  width: 40%;
+  width: 43%;
   height: 50%;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: left;
-  opacity: 310%
 }
 
 
@@ -95,7 +99,7 @@ ul#contacts, ul.stack-list {
 /*stack section*/
 
 #stack {
-  margin-left: 15%;
+  margin-left: 20%;
   width: 75%;
 }
 
@@ -152,15 +156,17 @@ ul#contacts, ul.stack-list {
 .slider img {
   height: auto;
   display: block;
-  margin-left: 25%;
+  margin-bottom: 15%;
+  margin-left: 28%;
   width: 60%;
   border: 0;
   }
 
   .caption {
   position: absolute;
-  margin-left: 25.01%;
-  width: 57.95%;
+  margin-left: 28%;
+  margin-bottom: 17.5%;
+  width: 57.85%;
   display: block;
   bottom: -5%;
   left: 0;
@@ -182,19 +188,29 @@ z-index:999;
 
 .rslides_nav.prev{
 background: url('../images/prev.png') no-repeat 0 0;
-margin-left: 20%;
+margin-left: 23%;
 margin-top: 15%;
 }
 
 .rslides_nav.next{
 background: url('../images/next.png') no-repeat 0 0;
-margin-left: 86.5%;
+margin-left: 89.5%;
 margin-top: 15%;
 }
 
 .wiggle {
   padding: 0;
   vertical-align: top;
+}
+
+/*resume*/
+
+
+#resume {
+  margin-left: 37%;
+  width: 35%;
+  height: 80%;
+  z-index: 999;
 }
 
 
