@@ -1,5 +1,8 @@
 /* body / background*/
 
+
+
+
 body {
   background-repeat: cover;
   background-color: #708090;
@@ -26,7 +29,7 @@ body {
 
 #main {
   margin: auto;
-  width: 75%;
+  width: 72%;
   height: 100%;
   padding: 0;
 }
@@ -207,7 +210,7 @@ margin-top: 15%;
 
 
 #resume {
-  margin-left: 37%;
+  margin-left: 26%;
   width: 35%;
   height: 80%;
   z-index: 999;
