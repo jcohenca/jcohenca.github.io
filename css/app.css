@@ -45,7 +45,7 @@ body {
 
 img#me {
   border-radius: 2%;
-  border: solid black 3px ;
+
   width: 90%;
   margin-top: 5%;
 
@@ -67,7 +67,7 @@ img#me {
   width: 58%;
   margin-left: 28%;
   background-color: gray;
-  border: 3px solid white;
+  border: 3px solid black;
   border-radius: 10px;
 }
 
