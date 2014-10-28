@@ -27,36 +27,46 @@ body {
   padding:0;
 }
 
-#main {
-  margin: auto;
-  width: 72%;
-  height: 100%;
-  padding: 0;
-}
+
 
 /*about me */
 
 
 #top-left {
   float: left;
-  width: 35%;
-  height: 50%;
-  margin-left: 15%;
+  width: 39%;
+  height: 42%;
+  margin-left: 4%;
+  margin-top: 2%
+
 }
 
 img#me {
   border-radius: 2%;
-  border: solid black 8px ;
-  width: 75%;
-  margin-left: 27%;
+  border: solid black 3px ;
+  width: 90%;
+  margin-top: 5%;
+
 }
 
 #top-right {
   float: right;
-  width: 43%;
-  height: 50%;
+  width: 49%;
   font-size: 1.2em;
   text-align: left;
+  vertical-align: top;
+  margin-right: 3%;
+  margin-top: 2%
+}
+
+#main {
+  margin: auto;
+  height: 320px ;
+  width: 58%;
+  margin-left: 28%;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 10px;
 }
 
 
@@ -214,6 +224,7 @@ margin-top: 15%;
   width: 35%;
   height: 80%;
   z-index: 999;
+  padding-bottom: 10%
 }
 
 

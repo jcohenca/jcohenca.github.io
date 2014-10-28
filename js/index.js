@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    $('#main').fadeIn(450);
     $('.stack-box').hide();
     $('.section').hide();
     $('#portfolio-section').hide();
@@ -25,13 +26,11 @@ function about() {
   $('#resume').hide();
   $('#portfolio-section').hide();
 
-  $('#top-right').fadeIn(450);
-  $('#top-left').fadeIn(450);
+  $('#main').fadeIn(450);
 }
 
 function skills() {
-  $('#top-right').hide();
-  $('#top-left').hide();
+  $('#main').hide();
   $('#resume').hide();
   $('#portfolio-section').hide();
 
@@ -39,8 +38,7 @@ function skills() {
 }
 
 function portfolio() {
-  $('#top-right').hide();
-  $('#top-left').hide();
+  $('#main').hide();
   $('.stack-box').hide();
   $('#resume').hide();
 
@@ -48,8 +46,7 @@ function portfolio() {
 }
 
 function resume() {
-  $('#top-right').hide();
-  $('#top-left').hide();
+  $('#main').hide();
   $('.stack-box').hide();
   $('#portfolio-section').hide();
 
