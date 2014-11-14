@@ -1,0 +1,21 @@
+@media only screen and (max-device-width: 1226px) {
+
+  #top-left {
+  max-width: 30%;
+  max-height: 35%;
+  margin-left: 22%;
+  margin-top: 2%
+
+}
+
+
+#top-right {
+  max-width: 40%;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 21%;
+  margin-top: -2%;
+}
+
+
+}
